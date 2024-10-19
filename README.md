@@ -16,7 +16,7 @@ The code repository for "Evolutionary algorithms for multi‑objective stochasti
 
 ## Evolutionary algorithms for multi‑objective stochastic resource availability cost problem
 ### Abstract
-This paper investigates the resource availability cost problem in a PERT-type network, where both activities duration and resource requirement are considered as stochastic parameters. The problem has two objective functions in which the first one, namely the project’s makespan, is to minimize the project’s duration. However, the second one tries to minimize the total cost of resources. Since its NP-hardness is proven in a strong sense, four well-known evolutionary algorithms including strength pareto evolution algorithm II, non-dominated sorting genetic algorithm II, multi-objective particle swarm optimization, and pareto envelope-based selection algorithm II are proposed to solve the problem. Furthermore, to enhance the algorithms’ performance, some efficient mutation and crossover operators, as well as two novel operators called local search and movement, are employed to solution structure for producing new generations. Also, in order to tackle uncertainty, Monte-carlo simulation is utilized. In order to tune the effective parameters, the Taguchi method is used. The performance of our proposed algorithms is evaluated by numerical test problems in different size which generated based on PSPLIB benchmark problems. Finally, to assess the relative performance of the four proposed algorithms, six well-known performance criteria are employed. Using relative percentage deviation and TOPSIS approach, the performance of algorithms is elucidated.
+This paper investigates the resource availability cost problem in a PERT-type network, where both activity duration and resource requirement are considered stochastic parameters. The problem has two objective functions which the first one, namely the project’s makespan, is to minimize the project’s duration. However, the second one tries to minimize the total cost of resources. Since its NP-hardness is proven in a strong sense, four well-known evolutionary algorithms including strength Pareto evolution algorithm II, non-dominated sorting genetic algorithm II, multi-objective particle swarm optimization, and Pareto envelope-based selection algorithm II are proposed to solve the problem. Furthermore, to enhance the algorithms’ performance, some efficient mutation and crossover operators, as well as two novel operators called local search and movement, are employed to solve the structure for producing new generations. Also, in order to tackle uncertainty, Monte-Carlo simulation is utilized. The Taguchi method is used to tune the effective parameters. The performance of our proposed algorithms is evaluated by numerical test problems of different sizes which are generated based on PSPLIB benchmark problems. Finally, to assess the relative performance of the four proposed algorithms, six well-known performance criteria are employed. Using relative percentage deviation and the TOPSIS approach, the performance of algorithms is elucidated.
 
 ## Meta-heuristic Algorithms
 
@@ -27,4 +27,9 @@ The following algorithms are employed to solve the problem:
 - [SPEA-II](https://neo.lcc.uma.es/emoo/zitzler01.ps.gz)
 - [PESA-II](https://dl.acm.org/doi/10.5555/2955239.2955289)
 
-- 
+## Dataset
+We provide the source code on three benchmark datasets including J10, J30, and J120 from PSPLIB which is the standard library for project scheduling problems. Please follow the guidelines in [PSPlib-RCPSP](https://www.om-db.wi.tum.de/psplib/getdata_sm.html).
+
+    
+## Contact 
+If there are any questions, please feel free to contact with the author: Masoud Arjmand (m.arjmand@ut.ac.ir). 
