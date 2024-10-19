@@ -24,7 +24,7 @@ The following algorithms are employed to solve the problem:
 
 - [NSGA-II](https://ieeexplore.ieee.org/document/996017)
 - [MOPSO](https://ieeexplore.ieee.org/document/1004388)
-- SPEA-II(https://neo.lcc.uma.es/emoo/zitzler01.ps.gz)
-- PESA-II(https://dl.acm.org/doi/10.5555/2955239.2955289)
+- [SPEA-II](https://neo.lcc.uma.es/emoo/zitzler01.ps.gz)
+- [PESA-II](https://dl.acm.org/doi/10.5555/2955239.2955289)
 
 - 
